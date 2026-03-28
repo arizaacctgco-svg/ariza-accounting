@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ariza Accounting Company</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+body{color:#0f172a;background:#f8fafc}
+.container{max-width:1200px;margin:auto;padding:0 20px}
+header{background:#0b3a6f;color:white}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font-size:22px;font-weight:700}
+.nav a{color:white;text-decoration:none;margin-left:24px;font-weight:500}
+.hero{
+background:linear-gradient(rgba(11,58,111,.85),rgba(11,58,111,.85)), url('header.jpg') center/cover no-repeat;
+color:white;
+padding:100px 0;
+}
+.hero h1{font-size:48px;margin-bottom:16px}
+.hero p{font-size:18px;margin-bottom:28px;opacity:.95}
+.btn{
+display:inline-block;
+padding:14px 22px;
+background:#1d9bf0;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:600
+}
+.section{padding:70px 0}
+.section h2{font-size:32px;margin-bottom:14px;color:#0b3a6f}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin-top:30px}
+.card{
+background:white;
+padding:24px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,.05)
+}
+.card h3{margin-bottom:10px;color:#0b3a6f}
+.contact-box{
+background:#0b3a6f;
+color:white;
+padding:40px;
+border-radius:12px;
+margin-top:30px
+}
+footer{
+background:#020617;
+color:#cbd5e1;
+padding:30px 0;
+margin-top:60px
+}
+.footer-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px
+}
+@media(max-width:768px){
+.hero h1{font-size:34px}
+.footer-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="container nav">
+<div class="logo">Ariza Accounting Company</div>
+<nav>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<h1>Your Trusted Accounting Partner</h1>
+<p>Accuracy • Integrity • Growth — Professional accounting services for businesses and individuals.</p>
+<a class="btn" href="#contact">Get Free Consultation</a>
+</div>
+</section>
+
+<section id="services" class="section">
+<div class="container">
+<h2>Our Services</h2>
+<p>Reliable, accurate accounting solutions tailored to your business.</p>
+
+<div class="services">
+<div class="card">
+<h3>Bookkeeping</h3>
+<p>Monthly bookkeeping, reconciliations, and financial organization.</p>
+</div>
+
+<div class="card">
+<h3>Tax Preparation</h3>
+<p>Individual and business tax filing with compliance and accuracy.</p>
+</div>
+
+<div class="card">
+<h3>Payroll Services</h3>
+<p>Employee payroll, reporting, and tax filings handled for you.</p>
+</div>
+
+<div class="card">
+<h3>Business Consulting</h3>
+<p>Financial guidance to help your company grow with confidence.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="about" class="section" style="background:#eef2ff">
+<div class="container">
+<h2>About Ariza Accounting Company</h2>
+<p>Ariza Accounting Company provides dependable accounting, bookkeeping, and tax services for small businesses and individuals. Our mission is to deliver accurate financials, maintain integrity in every report, and support sustainable business growth.</p>
+</div>
+</section>
+
+<section id="contact" class="section">
+<div class="container">
+<h2>Contact Us</h2>
+<p>Reach out today for a free consultation.</p>
+
+<div class="contact-box">
+<strong>Ariza Accounting Company</strong><br><br>
+2775 N Ventura Rd Suite 104<br>
+Oxnard, CA 93036<br><br>
+Phone: (805) 298-0256<br>
+Email: arizaacctgco@gmail.com
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container footer-grid">
+<div>
+<strong>Ariza Accounting Company</strong><br>
+Accuracy • Integrity • Growth
+</div>
+<div>
+2775 N Ventura Rd Suite 104<br>
+Oxnard, CA 93036<br>
+(805) 298-0256
+</div>
+</div>
+</footer>
+
+</body>
+</html>
